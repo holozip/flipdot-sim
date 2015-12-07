@@ -34,7 +34,7 @@ The default ports can be modified by changing these variable declarations:
 ## Client
 The client javascript is self contained in flippy.js.
 
-The client binds to a websocket on the server, and updates the flipdot board every time a message is recieved.
+The client binds to a websocket on the server, and updates the flipdot board every time a message is received.
 Dependencies can be fetched with bower:
 
     bower install
