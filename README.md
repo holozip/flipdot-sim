@@ -2,10 +2,19 @@
 
 This project provides emulation for FlipDot matrix display panels in a browser.
 
+
+![ScreenShot](examples/FlipDot.gif)
+
 It comprises of client side javascript that runs in the browser, and a node server.
 
 Examples of scripts that can be run against the FlipDot emulator can be found here:
 https://github.com/openlab-aux/flipdots/tree/master/scripts
+
+The real flipdot udp-receiver that this project simulates can be found here:
+https://github.com/muccc/flipdots/tree/master/rpi-demo
+
+An example of a real display:
+https://www.youtube.com/watch?v=GVFRDPJn-L8
 
 
 ## Server
