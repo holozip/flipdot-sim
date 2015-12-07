@@ -57,3 +57,6 @@ A basic web page that loads flippy as follows:
     </script>
     </body>
     </html>
+    
+## Diagram
+![ScreenShot](examples/FlipDot_Sim_Design.png)
