@@ -6,6 +6,7 @@ var columns;
 var rows;
 var bits = [];
 var size;
+var stroke_weight;
 
 window.WebSocket = window.WebSocket || window.MozWebSocket;
 var connection = new WebSocket('ws://localhost:1337');
@@ -31,8 +32,8 @@ connection.onmessage = function (message) {
 function setup() {
     rows = 16;
     columns = 120;
-    size = 6;
-
+    size = 8;
+    stroke_weight = 0.3;
     // canvas size:
     width = columns * (size + 1);
     height = rows * (size + 1);
@@ -49,7 +50,8 @@ function draw() {
         for ( var x = 0; x < columns;x++) {
             if ((bits[cnt] == 1)) fill(0);
             else fill(255);
-            stroke(0);
+            strokeWeight(stroke_weight);
+            stroke(240,240,240);
             rect(x*(size + 1), y*(size + 1), size, size);
             cnt++;
         }
