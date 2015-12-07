@@ -3,7 +3,7 @@
 This project provides emulation for FlipDot matrix display panels in a browser.
 
 
-![ScreenShot](examples/FlipDot.gif)
+![ScreenShot](examples/FlippyBird.gif)
 
 It comprises of client side javascript that runs in the browser, and a node server.
 
