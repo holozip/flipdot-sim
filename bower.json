@@ -1,0 +1,21 @@
+{
+  "name": "FlipDotSim",
+  "description": "A FlipDot simulator",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "devDependencies": {
+    "p5.js": "p5js#~0.4.19"
+  }
+}

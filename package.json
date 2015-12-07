@@ -1,0 +1,17 @@
+{
+  "name": "flipdotsim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flippy.js",
+  "dependencies": {
+    "bit-array": "^0.2.2",
+    "express": "^4.13.3",
+    "websocket": "^1.0.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT - "
+}
